@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/Portfolio/',
+  publicPath: '/kjh04.github.io-portfolio/',
   "transpileDependencies": [
     "vuetify"
   ]
