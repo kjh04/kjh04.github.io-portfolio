@@ -94,7 +94,7 @@
         <v-row>
           <v-card>
             <v-card-title>Code</v-card-title>
-            <v-card-text>
+            <v-card-text class="bold">
               "Modeling the World"
             </v-card-text>
             <v-card-text>
@@ -105,7 +105,7 @@
               The calculations made in the models of our system are meant to model energy use in a village or rural community, eventually, we would like to build
               our library of models so that we can extend our modelling capabilities from a village to the world.
             </v-card-text>
-            <v-card-text>
+            <v-card-text class="bold">
               Project Status Report System
             </v-card-text>
             <v-card-text>
@@ -115,7 +115,7 @@
               The application was web based which was written using the Vue and Vuetify frameworks. 
               We also utilized Power BI to deliver data.
             </v-card-text>
-            <v-card-text>
+            <v-card-text class="bold">
               Cookbooker
             </v-card-text>
             <v-card-text>
@@ -125,7 +125,7 @@
               meals, and generate groceries lists. I am currently working on developing the create, read, update, and delete functionalites
               of the recipe library.
             </v-card-text>
-            <v-card-text>
+            <v-card-text class="bold">
               Word Search Solver
             </v-card-text>
             <v-card-text>
@@ -157,5 +157,8 @@ export default {
   word-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
+}
+.bold {
+  font-weight: bold;
 }
 </style>
