@@ -5,9 +5,9 @@
       dark
       color="#29335C"
     >
-      <v-app-bar-nav-icon v-on:click="drawer = !drawer"></v-app-bar-nav-icon>
+      <!-- <v-app-bar-nav-icon v-on:click="drawer = !drawer"></v-app-bar-nav-icon> -->
     </v-app-bar>
-    <v-navigation-drawer 
+    <!-- <v-navigation-drawer 
       v-model="drawer" 
       absolute
       temporary
@@ -28,7 +28,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
     <v-content>
       <v-container>
         <v-row align="center" justify="center">
