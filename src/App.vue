@@ -42,10 +42,14 @@
                   I am interested in software enginnering and video game development - my two passions are art and technology.
                 </v-card-text>
                 <v-card-text>
-                  LinkedIn: https://www.linkedin.com/in/kaitlynhoopingarner
+                  GitHub: <a href="https://github.com/kjh04">https://github.com/kjh04</a> <br>
+                  Note: I keep my "work in progress" repositories private to prevent others from pushing changes because I want the repository to be a reflection of my work
                 </v-card-text>
                 <v-card-text>
-                  Instagram (Art Portfolio): https://www.instagram.com/illustrating.kate/
+                  LinkedIn: <a href="https://www.linkedin.com/in/kaitlynhoopingarner">https://www.linkedin.com/in/kaitlynhoopingarner</a>
+                </v-card-text>
+                <v-card-text>
+                  Instagram (Art Portfolio): <a href="https://www.instagram.com/illustrating.kate/">@illustrating.kate</a>
                 </v-card-text>
               </div>
             </v-card>
