@@ -95,6 +95,18 @@
           <v-card>
             <v-card-title>Code</v-card-title>
             <v-card-text class="bold">
+              Portfolio Site
+            </v-card-text>
+            <v-card-text>
+              I created this website using the Vue and Vuetify frameworks.
+              The languages involved are HTML, Javascript, and CSS.
+              It is being hosted with Github Pages.
+              This project is a continuous work in progress as I will update it as I learn more, and create more.
+            </v-card-text>
+            <v-card-text>
+              <a href="https://github.com/kjh04/kjh04.github.io-portfolio">https://github.com/kjh04/kjh04.github.io-portfolio</a>
+            </v-card-text>
+            <v-card-text class="bold">
               "Modeling the World"
             </v-card-text>
             <v-card-text>
