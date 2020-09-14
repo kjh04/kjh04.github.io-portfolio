@@ -34,7 +34,7 @@
         <v-row align="center" justify="center">
           <v-col cols="8">
             <v-card>
-              <v-card-title>Welcome</v-card-title>
+              <v-card-title>Welcome!</v-card-title>
               <v-card-subtitle>Portfolio of Kaitlyn Hoopingarner</v-card-subtitle>
               <div class="text--primary">
                 <v-card-text>
@@ -43,6 +43,8 @@
                 </v-card-text>
                 <v-card-text>
                   LinkedIn: https://www.linkedin.com/in/kaitlynhoopingarner
+                </v-card-text>
+                <v-card-text>
                   Instagram (Art Portfolio): https://www.instagram.com/illustrating.kate/
                 </v-card-text>
               </div>
@@ -80,7 +82,7 @@
           </v-col>
           <v-col>
             <v-card>
-              <v-card-title>Interpersonal</v-card-title>
+              <v-card-title>Interpersonal Skills</v-card-title>
               <v-card-text>
                   Written and Verbal Communication, Time Management, Critical Thinking, Problem Solving, Organization,
                   Diligence, Public Speaking, Attention to Detail, Empathy, Self-Motivation, Active Team Player, Excited Learner, Quick
