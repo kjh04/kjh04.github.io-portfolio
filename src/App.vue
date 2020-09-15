@@ -33,25 +33,35 @@
       <v-container>
         <v-row align="center" justify="center">
           <v-col cols="8">
-            <v-card>
-              <v-card-title>Welcome!</v-card-title>
-              <v-card-subtitle>Portfolio of Kaitlyn Hoopingarner</v-card-subtitle>
-              <div class="text--primary">
-                <v-card-text>
-                  I am a driven, organized, and detail oriented third year computer science student at Iowa State University pursuing my bachelor's degree.
-                  I am interested in software enginnering and video game development - my two passions are art and technology.
-                </v-card-text>
-                <v-card-text>
-                  GitHub: <a href="https://github.com/kjh04">https://github.com/kjh04</a> <br>
-                  Note: I keep my "work in progress" repositories private to prevent others from pushing changes because I want the repository to be a reflection of my work
-                </v-card-text>
-                <v-card-text>
-                  LinkedIn: <a href="https://www.linkedin.com/in/kaitlynhoopingarner">https://www.linkedin.com/in/kaitlynhoopingarner</a>
-                </v-card-text>
-                <v-card-text>
-                  Instagram (Art Portfolio): <a href="https://www.instagram.com/illustrating.kate/">@illustrating.kate</a>
-                </v-card-text>
-              </div>
+            <v-card class="mx-auto">
+              <v-container fluid>
+                <v-row no-gutters dense  align="center" justify="center">
+                  <v-col cols="7">
+                    <v-card-title>Welcome!</v-card-title>
+                    <v-card-subtitle>Portfolio of Kaitlyn Hoopingarner</v-card-subtitle>
+                    <div class="text--primary">
+                      <v-card-text>
+                        I am a driven, organized, and detail oriented third year computer science student at Iowa State University pursuing my bachelor's degree.
+                        I am interested in software enginnering and video game development - my two passions are art and technology.
+                      </v-card-text>
+                      <v-card-text>
+                        GitHub: <a href="https://github.com/kjh04">https://github.com/kjh04</a> <br>
+                        Note: I keep my "work in progress" repositories private to prevent others from pushing changes because I want the repository to be a reflection of my work
+                      </v-card-text>
+                      <v-card-text>
+                        LinkedIn: <a href="https://www.linkedin.com/in/kaitlynhoopingarner">https://www.linkedin.com/in/kaitlynhoopingarner</a>
+                      </v-card-text>
+                      <v-card-text>
+                        Instagram (Art Portfolio): <a href="https://www.instagram.com/illustrating.kate/">@illustrating.kate</a>
+                      </v-card-text>
+                    </div>
+                  </v-col>
+                  <v-col cols="5">
+                    <v-img class="imageBorder" src="@/assets/Portrait.jpg"></v-img>
+                  </v-col>
+                </v-row>
+              </v-container>
+              
             </v-card>
           </v-col>
         </v-row>
@@ -176,5 +186,8 @@ export default {
 }
 .bold {
   font-weight: bold;
+}
+.imageBorder {
+  border: 5px solid #C0BDA5;
 }
 </style>
